@@ -20,13 +20,13 @@ fn main() {
                 Ok(num) => num,
                 Err(_) => continue, 
             };        
-            println!("Uwu guessed: {guess}, Bitch 🤦‍♀️🤦‍♀️");
+            println!("Uwu guessed: {guess}, Bitch😱😱");
 
             match guess.cmp(&secret_number) {
                 Ordering::Less => println!("too smaww 😭😭!"),
                 Ordering::Greater => println!("too wawge 👀👀!"),
                 Ordering::Equal => {
-                    println!("congwatuwations bitch! 😍😍😍👌👌👌👌👌\nduwu uwu wawnt a pwize??~🙀🙀🙀");
+                    println!("congwatuwations bitch! 😍😍😍👌👌👌👌👌\nduwu uwu wawnt a pwize??🙀🙀🙀");
                     println!("uwu win !!!!!!");
                     break;
                 }
